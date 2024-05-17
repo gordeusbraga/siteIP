@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'JetBrains Mono';
+}
+body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    background-color: #4a42423b;
+    border-radius: 25px;
+    width: 270px;
+    padding: 1%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+#headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    
+}
+.perfil{
+    border-radius: 100%;
+    margin-right: 2%;
+}
+span{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 80%;
+}
+img{
+    padding: 2%;
+    padding-left: 4%;
+   
+}
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    margin-top: 40%;
+    text-decoration: none;
+    color: white;
+    background-color: #4a42423b;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+    
+}
+footer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    padding: 45px;
+    background-color: #4a4242bb;
+    transition:  0.4s;
+}

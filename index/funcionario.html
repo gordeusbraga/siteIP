@@ -1,0 +1,37 @@
+o<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenador</title>
+    <link rel="stylesheet" href="../styles/acessarfunc.css">
+    <link rel="shortcut icon" href="../images/apple-touch-icon.png" type="image/x-icon">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <div id="headers">
+        <header>
+            <img id="men" src="../images/menu.png" alt="menu">
+            <span class="textoId">
+                <p>Cadastrar Funcionário</p>
+            </span>
+        
+                <span><img class="perfil" src="../images/testPe.jpg" alt="FotoPerfil" width="40px" ></span>
+        
+        </header>
+    </div>
+    <main>
+       <div id="check" style="margin-left: -100%;">
+           <p class="textCadastro" style="margin-top: -20%; text-align: center; "><span id="funcionarioNome"></span></p> 
+        </div>
+    </main>
+    <footer style="margin-top: 80%;">
+        <p>IP-Control</p>
+    </footer>
+    <script>
+        document.getElementById("funcionarioNome").innerText = sessionStorage.getItem("nome");
+    </script>
+    
+</body>
+
+</html>

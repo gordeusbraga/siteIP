@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenador</title>
+    <link rel="stylesheet" href="../styles/cadastroRealizado.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <script src="../script.js">
+       
+
+    </script>
+</head>
+
+<body>
+    <div id="headers">
+        <header>
+            <img id="men" src="../images/menu.png" alt="menu">
+            <span class="textoId">
+                <p>Cadastrar Funcionário</p>
+            </span>
+        
+                <span><img class="perfil" src="../images/testPe.jpg" alt="FotoPerfil" width="40px" ></span>
+        
+        </header>
+    </div>
+    <main>
+       <div id="check">
+        <p class="textCadastro" id="ptextcadastro">Cadastro Realizado</p> <img src="../images/Vector.png" alt="check" id="imgCheck">
+       </div>
+
+       <div>
+        <p class="textCadastro">Funcionário: <span id="funcionarioNome"></span> </p>
+        <p class="textCadastro">Email: <span id="funcionarioEmail"></span></p> 
+        <p class="textCadastro">Unidade: <span id="funcionarioUnidade"></span></p>
+        <p class="textCadastro">Id: <span id="funcionarioCidade"></span></p>
+       </div>
+    </main>
+    <footer>
+        <p>IP-Control</p>
+    </footer>
+    <script>
+        // Exibindo os valores passados da página anterior
+        document.getElementById("funcionarioNome").innerText = sessionStorage.getItem("nome");
+        document.getElementById("funcionarioEmail").innerText = sessionStorage.getItem("email");
+        document.getElementById("funcionarioCidade").innerText = sessionStorage.getItem("cidade");
+        document.getElementById("funcionarioUnidade").innerText = sessionStorage.getItem("unidade");
+    </script>
+    
+</body>
+
+</html>
