@@ -3,33 +3,37 @@
     margin: 0px;
     border: 0px;
     font-family: 'JetBrains Mono';
+    
 }
 body{
-    background-color: black;
+    background-color: white;
 }
 html{
     scroll-behavior: smooth;
 }
 
 header{
+    
     display: flex;
-    background-color: #4a42423b;
+    background: linear-gradient(100deg, #020D7C, #0318e2);
+
     border-radius: 25px;
-    width: 270px;
+    width: 570px;
     padding: 1%;
     padding-right: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 7%;
+    padding-right: 5%;
     
 }
+
 #headers{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    
     padding: 2%;
     margin-left: 2%;
     
@@ -66,7 +70,7 @@ footer{
     color: white;
 }
 p{
-     color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
      text-align: center;
 }
@@ -74,8 +78,8 @@ p{
 
     margin-right: -70%;
     margin-left: 8%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 #men{
     margin-left: -5%;
@@ -87,7 +91,7 @@ main{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 8%;
+    margin-top: 3%;
 }
 #intrucoes{
     text-align: justify;
@@ -95,12 +99,15 @@ main{
 }
 #div-intrucoes{
     margin-bottom: 8%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     
    
 }
 #cidade{
     
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 #selecionarCity{
@@ -108,13 +115,13 @@ main{
 }
 
 select{
-    background-color: #4a42423b;
-    color: white;
-    padding: 5px;
+    background-color: #012458c5;
+    color: rgb(255, 255, 255);
+    padding: 15px;
     width: 70%;
 }
 #unidade{
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     margin-top: 6%;
 }
@@ -124,15 +131,16 @@ select{
     width: 70%;
 }
 option{
-    background-color: #383535;
-    color: white;
+    background-color: #012458;
+    color: rgb(255, 255, 255);
 }
 input{
-    background-color: #4a42423b;
-    color: white;
+    background-color: #ffffff3b;
+    color: #000000;
     padding: 7px;
     margin-left: 6%;
     width: 63%;
+    border-bottom: 1px solid black;
 
 }
 #nomeInput{
@@ -145,7 +153,7 @@ p{
     font-size: 16px;
 }
 #name{
-    margin-left: -4%;
+    margin-left: -14%;
 }
 .emailSenha{
     margin-left: 2%;
@@ -157,7 +165,7 @@ p{
     
 }
 .textEmailSenha{
-    margin-left: -6%;
+    
 }
 #botoes{
     display: flex;
@@ -169,13 +177,13 @@ button{
     margin-left: 10%;
     color: white;
     padding: 15px;
-    background-color: #403939db;
+    background: linear-gradient(100deg, #020D7C, #0318e2);
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    margin-top: 3%;
+    border: none;
 }
 button:hover{
     background-color: #242222;
