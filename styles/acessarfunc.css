@@ -3,9 +3,11 @@
     margin: 0px;
     border: 0px;
     font-family: 'JetBrains Mono';
+    
 }
 body{
-    background-color: black;
+    background-color: white;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -13,107 +15,247 @@ html{
 
 header{
     display: flex;
-    background-color: #4a42423b;
+    background: linear-gradient(100deg, #020D7C, #0318e2);
     border-radius: 25px;
-    width: 270px;
+    width: 650px;
     padding: 1%;
-    padding-right: 6%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
+
     
 }
+
 #headers{
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 2%;
     margin-left: 2%;
     
 }
 .perfil{
     border-radius: 100%;
-    margin-right: 2%;
+    width: 50px;
+
+    
+}
+.textoId > p{
+    color: white;
+    font-size: 20px;
+    
+}
+.textoId{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 24%;
+    margin-right: 24%;
+    
 }
 span{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 80%;
+    
 }
 img{
-    padding: 2%;
-    padding-left: 4%;
+    width: 50px;
+    border-radius: 100%;
    
 }
 main{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    
     
 }
  
 footer{
+    margin-top: 6%;
     display: flex;
     align-items: end;
     justify-content: center;
-    margin-top: 130%;
     margin-bottom: 3%;
     color: white;
 }
-.textoId{
+p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+     text-align: center;
+}
 
-    margin-right: -70%;
-    margin-left: 8%;
-    padding-left: 3%;
-    padding-right: 3%;
-    color: white;
-    text-align: center;
-}
-#men{
-    margin-left: -5%;
-}
-.textCadastro{
-    margin-top: 3%;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    padding: 20px;
-     
-}
-#check{
-   display: grid;
-   align-items: center;
-   justify-content: center;
 
-}
-#div-select{
-    background-color: #4a42423b;
-    color: white;
-    padding: 5px;
-    width: 80%;
-  
-}
-#func{
-    width: 200px; background-color: #4a42423b; color: white; padding: 10px; border-radius: 10px; margin-left: 20%; margin-top: 20px;
-}
-button{
-    color: white;
-    padding: 20px;
-    background-color: #403939db;
-    font-size: 20px;
-    display: flex;
+main{
+    width:40%;
+    display: grid;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
-    margin-top: 24%;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+p.textCadastro{
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+select{
+    background-color: #012458c5;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+
+
+option{
+    background-color: #012458;
+    color: rgb(255, 255, 255);
+}
+
+p{
+   
+    font-size: 16px;
+    
 }
 #btn{
+    margin-top: 10%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: 5%;
+    align-items: center;
 }
+button{
+   
+    color: white;
+    padding: 15px;
+    background: linear-gradient(100deg, #020D7C, #0318e2);
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+button:hover{
+    background-color: #242222;
+    text-decoration: underline;
+    padding: 18px;
+    transition: 0.5s ease-in-out;
+}
+@media (max-width: 818px){
+    header{
+        display: flex;
+        background: linear-gradient(100deg, #020D7C, #0318e2);
+        border-radius: 25px;
+        width: 350px;
+        padding-left: 6%;
+        padding-right: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+    
+    #headers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    main{
+        width:85%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 17%;
+        margin-left: 10%;
+        
+    }
+    
+    #div-intrucoes{
+        margin-bottom: 8%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+       
+    }
+    #cidade{
+        
+        color: rgb(0, 0, 0);
+        margin-left:  0px;
+        
+    }
+    #selecionarCity{
+        
+    }
+    
+    select{
+        background-color: #012458c5;
+        color: rgb(255, 255, 255);
+        padding: 4px;
+        width:60%;
+
+    }
+    #unidade{
+        color: rgb(0, 0, 0);
+        display: flex;
+        margin-top: 6%;
+        margin-left: 0px;
+        
+    }
+    #unidadesMG{
+
+        width: 60%;
+    }
+    option{
+        background-color: #012458;
+        color: rgb(255, 255, 255);
+    }
+    input{
+        background-color: #ffffff3b;
+        color: #000000;
+        padding: 7px;
+        
+        width: 63%;
+        border-bottom: 1px solid black;
+    
+    }
+    #nomeInput{
+        margin-top: 6%;
+       
+    }
+    p{
+       
+        font-size: 16px;
+        
+    }
+    #name{
+        margin-left: -5%;
+    }
+    .emailSenha{
+        margin-left: -5%;
+    }
+    
+    .inptSenhaEmail{
+        width: 63%;
+        margin-left: 4% ;
+        
+    }
+    button{
+        margin-top: 43%;
+    }
+    footer{
+        margin-top: 56%;
+        
+    }
+    #botoes{
+        display: flex;
+
+}}
