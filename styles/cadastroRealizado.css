@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 *{
+    margin: 0px;
     border: 0px;
     font-family: 'JetBrains Mono';
     
 }
 body{
-    background-color: black;
-    color: white;
+    background-color: white;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -14,101 +15,139 @@ html{
 
 header{
     display: flex;
-    background-color: #4a42423b;
+    background: linear-gradient(100deg, #020D7C, #0318e2);
     border-radius: 25px;
-    width: 230px;
+    width: 650px;
     padding: 1%;
-    padding-right: 6%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-top: 4%;
+    text-align: center;
+
     
 }
+
 #headers{
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 2%;
     margin-left: 2%;
     
 }
 .perfil{
     border-radius: 100%;
-    margin-right: 2%;
+    width: 50px;
+
+    
 }
-span{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-left: 80%;
+.textoId > p{
+    color: white;
+    font-size: 20px;
+    
 }
+.textoId{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 24%;
+    margin-right: 24%;
+    
+}
+
 img{
-    padding: 2%;
-    padding-left: 4%;
+    width: 50px;
+    border-radius: 100%;
    
 }
 main{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: -50px;
+    
     
 }
  
 footer{
+    margin-top: 4%;
     display: flex;
     align-items: end;
     justify-content: center;
-    margin-top: 30%;
     margin-bottom: 3%;
-    color: white;
-}
-.textoId{
-
-    margin-right: -70%;
-    margin-left: 8%;
-    padding-left: 3%;
-    padding-right: 3%;
-    color: white;
-    text-align: center;
-}
-#men{
-    margin-left: -5%;
-}
-.textCadastro{
-    
-    color: white;
-    font-size: 18px;
-    display: flex;
-    padding: 20px;
-    padding-top: 0px;
-    padding-left: 20%;
-    padding-right: 20%;
-     
-}
-#ptextcadastro{
-    padding: 0px;
-}
-#check{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 110%;
-   margin-top: 20%;
-}
-#imgCheck{
-    width: 25px;
-    height: 25px;
-    display: flex;
+    color: #0319e29b;
 }
 p{
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
 }
-#funcionarioNome, #funcionarioEmail, #funcionarioUnidade, #funcionarioCidade{
-    margin-left: 9px;
-    font-size: 15;
-    color: rgb(105, 101, 101);
+
+
+main{
+    width:40%;
+    
+    margin-top: 1%;
+    margin-left: 30%;
 }
+.textCadastro{
+
+    font-size: 25px;
+    
+    margin-bottom: 5%;
+}
+
+#ptextcadastro{
+    font-size: 30px;
+    margin-top: 5%;
+}
+span{
+    margin-left: 0px;
+    padding: 0%;
+    
+}
+#check{
+    text-align: center;
+}
+.texts{
+    display: flex;
+    margin-top: 5%;
+}
+
+
+@media (max-width: 818px){
+    header{
+        display: flex;
+        background: linear-gradient(100deg, #020D7C, #0318e2);
+        border-radius: 25px;
+        width: 350px;
+        padding-left: 6%;
+        padding-right: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+    
+    #headers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    main{
+        width:85%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7%;
+        margin-left: 10%;
+        
+    }
+    footer{
+        margin-top: 51%;
+    }
+    
+     }
