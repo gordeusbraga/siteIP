@@ -46,6 +46,7 @@ header{
 .textoId > p{
     color: white;
     font-size: 20px;
+    display: contents;
     
 }
 .textoId{
@@ -54,6 +55,7 @@ header{
     font-weight: 900;
     margin-left: 24%;
     margin-right: 24%;
+    display: flex;
     
 }
 
@@ -81,6 +83,7 @@ footer{
 p{
     color: rgb(0, 0, 0);
     font-size: 25px;
+    padding-left: 2%;
 
 }
 

@@ -14,7 +14,6 @@ html{
 }
 
 header{
-    display: flex;
     background: linear-gradient(100deg, #020D7C, #0318e2);
     border-radius: 25px;
     width: 650px;
@@ -45,6 +44,7 @@ header{
 .textoId > p{
     color: white;
     font-size: 20px;
+    display: contents;
     
 }
 .textoId{
