@@ -3,97 +3,100 @@
     margin: 0px;
     border: 0px;
     font-family: 'JetBrains Mono';
-}
-body{
-    background-color: black;
-    color: white;
-}
-html{
-    scroll-behavior: smooth;
-}
-
-header{
-    display: flex;
-    background-color: #4a42423b;
-    border-radius: 25px;
-    width: 270px;
-    padding: 1%;
-    padding-right: 6%;
-    display: flex;
-    justify-content: center;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        }
+        html{
+            scroll-behavior: smooth;
+            }
+            
+            header{
+                display: flex;
+                background: linear-gradient(100deg, #020D7C, #0318e2);
+                border-radius: 25px;
+                width: 270px;
+                padding: 1%;
+                padding-right: 6%;
+                display: flex;
+                justify-content: center;
     align-items: center;
     padding-left: 8%;
     padding-right: 8%;
     font-size: 18px;
     
-}
-#headers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    margin-left: 2%;
-    
-}
-.perfil{
-    border-radius: 100%;
-    margin-right: 2%;
-}
-span{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-left: 80%;
-}
-img{
-    padding: 2%;
-    padding-left: 4%;
-   
-}
-main{
-    display: grid;
+    }
+    #headers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        margin-left: 2%;
+        
+        }
+        .perfil{
+            border-radius: 100%;
+            margin-right: 2%;
+            }
+            span{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                margin-left: 80%;
+                }
+                img{
+                    padding: 2%;
+                    padding-left: 4%;
+                    
+                    }
+                    main{
+                        display: grid;
     align-items: center;
     justify-content: center;
     margin-top: 15%;
     
-}
- 
-footer{
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    margin-top: 130%;
-    margin-bottom: 3%;
-    color: white;
-}
-.textoId{
-
-    margin-right: -70%;
-    margin-left: 8%;
-    padding-left: 3%;
-    padding-right: 3%;
-    color: white;
-    text-align: center;
-}
-#men{
-    margin-left: -5%;
-}
-.textCadastro{
-    margin-top: 3%;
-    color: white;
-    font-size: 20px;
+    }
+    
+    footer{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        color: rgb(0, 0, 0);
+        }
+            footer{
+                margin-top: 30%;
+            }
+        .textoId{
+            
+            margin-right: -70%;
+            margin-left: 8%;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: white;
+            text-align: center;
+            }
+            #men{
+                margin-left: -5%;
+                }
+                .textCadastro{
+                    margin-top: 3%;
+                    color: white;
+                    font-size: 20px;
     display: flex;
     padding: 20px;
-     
-}
-#check{
-   display: grid;
-   align-items: center;
-   justify-content: center;
-
-}
-#div-select{
-    background-color: #4a42423b;
+    
+    }
+    #check{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        #div-select{
+            background-color: #4a42423b;
     color: white;
     padding: 5px;
     width: 80%;
@@ -120,19 +123,134 @@ button{
     margin-top: 24%;
 }
 #horarioSalvo{
-    margin-top: 20%;
+    margin-top: 7%;
     font-size: 22px;
 }
 
 #pontoComp{
     font-size: 27px;
     margin-top: 2%;
-    margin-left: 2%;
+
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #container{
     display: flex;
     margin-top: 30%;
     text-align: center;
-    margin-left: 2%;
+    
 }
+#opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 20px;
+}
+@media (min-width: 505px) {
+    header{
+        width: 70%;
+    }
+    span.textoId{
+          padding-left: 10%;
+          padding-right: 10%;
+    }
+    
+     
+ }
+ @media (min-width: 768px) {
+     header{
+         width: 650px;
+     }
+     span.textoId{
+         padding-left: 20%;
+         padding-right: 20%;
+   }
+   main{
+    margin-top: 7%;
+   }
+   #horarioSalvo{
+    margin-top: 7%;
+    font-size: 22px;
+}
+
+#pontoComp{
+    font-size: 30px;
+    margin-top: 2%;
+
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    margin-top: 30%;
+    text-align: center;
+    
+}
+#opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+div#horarioSalvo{
+    margin-top: 7%;
+    font-size: 30px;
+    }
+   
+}
+        
+ @media (min-width: 1024px) {
+    #headers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        margin-left: 2%;
+        
+        }
+        .perfil{
+            border-radius: 100%;
+            margin-right: 2%;
+            }
+            span{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                margin-left: 80%;
+                }
+                img{
+                    padding: 2%;
+                    padding-left: 4%;
+                    
+                    }
+                    main{
+                        display: grid;
+     header{
+         width: 650px;
+     }
+     span.textoId{
+         padding-left: 30%;
+         padding-right: 20%;
+         display: flex;
+         font-size: 20px;
+         font-weight: 700;
+   }
+   span#perfil2{
+     margin-left: 89%;
+   }
+   button{
+     padding: 30px;
+   }
+   footer{
+    margin-top:15%;
+   }
+   .textoId{
+    padding-right: 20%;
+   }
+ }}

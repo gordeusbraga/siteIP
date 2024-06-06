@@ -1,4 +1,4 @@
-o<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -22,12 +22,13 @@ o<!DOCTYPE html>
     </div>
     <main>
         <div id="horarioSalvo"></div>
+        <div id="opcoes"></div>
         <div id="container">
-            <p id="pontoComp">Ponto Computado</p> <img src="../images/Vector.png" alt="check" style="width: 30px; height: 30px;">
+            <p id="pontoComp">Ponto Computado</p> 
         </div> 
        
     </main>
-    <footer style="margin-top: 80%;">
+    <footer >
         <p>IP-Control</p>
     </footer>
     
@@ -36,6 +37,9 @@ o<!DOCTYPE html>
     function exibirHorarioSalvo() {
     const horario = localStorage.getItem('horario');
     document.getElementById('horarioSalvo').innerText = "Horário Salvo: " + horario;
+
+    const opcao = localStorage.getItem('opcao');
+    document.getElementById('opcoes').innerText = "Opção: " + opcao;
     }
 
     // Exibe o horário salvo ao carregar a página

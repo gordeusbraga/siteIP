@@ -25,10 +25,10 @@
         <div id="clock"></div>
         <select name="options" id="opcao">
             <option value="selecione">Selecione</option>
-            <option value="entrada">Entrada</option>
-            <option value="inicioIntervalo">Inicio Intervalo</option>
-            <option value="finalIntervalo">Final Intervalo</option>
-            <option value="saida">Saída</option>
+            <option value="Entrada">Entrada</option>
+            <option value="Inicio do Intervalo">Inicio Intervalo</option>
+            <option value="Final do Intervalo">Final Intervalo</option>
+            <option value="Saída">Saída</option>
         </select>
         <button onclick="salvarHorario()"> Computar Ponto</button>
         <button> Escanear QR CODE</button>
@@ -51,6 +51,12 @@
     const time = date.toLocaleTimeString('pt-BR');
     localStorage.setItem('horario', time);
     window.location.href = "../index/pontoComputado.html";
+    opctions();
+    }
+    function opctions(){
+        const opcao = document.getElementById('opcao').value;
+        localStorage.setItem('opcao', opcao);
+        console.log(opcao);
     }
 
 // Atualiza a cada segundo
