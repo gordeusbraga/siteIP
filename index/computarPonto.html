@@ -47,16 +47,23 @@
     }
 
     function salvarHorario() {
-    const date = new Date();
+   if(document.getElementById('opcao').value == "selecione"){
+            alert("Selecione uma opção");
+        }else{
+            const date = new Date();
     const time = date.toLocaleTimeString('pt-BR');
     localStorage.setItem('horario', time);
     window.location.href = "../index/pontoComputado.html";
     opctions();
+        }
     }
     function opctions(){
-        const opcao = document.getElementById('opcao').value;
+        if(document.getElementById('opcao').value == "selecione"){
+            alert("Selecione uma opção");
+        }else{const opcao = document.getElementById('opcao').value;
         localStorage.setItem('opcao', opcao);
-        console.log(opcao);
+        console.log(opcao);}
+        
     }
 
 // Atualiza a cada segundo
