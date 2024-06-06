@@ -129,12 +129,15 @@ button{
 table{
     color: rgb(0, 0, 0);
     margin-top: 4%;
-    margin-left: 8%;
+   
     border-collapse: collapse;
-    border: 1px rgb(0, 0, 0) solid;
-    width: 85%;
+    
+    width:100%;
     padding:3px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 th, td{
     padding: 1px;
@@ -147,9 +150,15 @@ tr, td, colgroup{
     border: 1px rgb(0, 0, 0) solid;
     text-align: center;
 }
+.textTable{
+    padding-left: 60%;
+    display: flex;
+    
+
+}
 
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .textoId{
 
     
@@ -175,18 +184,18 @@ tr, td, colgroup{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:10%;
-        width: 350px;
-        
+        margin-left: 4%;        
        
         
     }
     table{
         font-size: 11px;
         margin-top: 10%;
+        width: 100%;
+       margin-left: 2%;
     }
     .textTable{
-        padding-left: 10%;
+        padding-left: 20%;
         display: flex;
     }
     main{
@@ -196,5 +205,55 @@ tr, td, colgroup{
         margin-top: 3%;
         padding-left: 7%;
         
+    }
+}
+@media (max-width: 900px) and (min-width: 701px){
+    .textoId{
+
+    
+        padding-left: 25%;
+        padding-right: 25%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    header{
+        background: linear-gradient(100deg, #020D7C, #0318e2);
+        border-radius: 25px;
+        width: 650px;
+        padding-right: 3%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #headers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        width: 100%;
+        
+       
+        
+    }
+    table{
+        font-size: 15px;
+        margin-top: 4%;
+    }
+    .textTable{
+        padding-left: 60%;
+        display: flex;
+    }
+    main{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+        
+    }
+    .perfil{
+        border-radius: 100%;
+        padding-left: 2%;
     }
 }
