@@ -1,11 +1,11 @@
-o<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computar Ponto</title>
     <link rel="stylesheet" href="../styles/computarPonto.css">
-    <link rel="shortcut icon" href="../images/apple-touch-icon.png" type="image/x-icon">
+   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">>
     <script src="../script.js"></script>
 </head>
 <body>
@@ -13,20 +13,28 @@ o<!DOCTYPE html>
         <header>
             <img id="men" src="../images/menu.png" alt="menu">
             <span class="textoId">
-                <p>Computar Ponto</p>
+                <p>Computar </p>
+                <p style="margin-left: 20px;">Ponto</p>
             </span>
         
-                <span><img class="perfil" src="../images/testPe.jpg" alt="FotoPerfil" width="40px" ></span>
+                <span id="perfil2"><img class="perfil" src="../images/testPe.jpg" alt="FotoPerfil" width="40px" ></span>
         
         </header>
     </div>
     <main>
         <div id="clock"></div>
+        <select name="options" id="opcao">
+            <option value="selecione">Selecione</option>
+            <option value="entrada">Entrada</option>
+            <option value="inicioIntervalo">Inicio Intervalo</option>
+            <option value="finalIntervalo">Final Intervalo</option>
+            <option value="saida">Saída</option>
+        </select>
         <button onclick="salvarHorario()"> Computar Ponto</button>
         <button> Escanear QR CODE</button>
        
     </main>
-    <footer style="margin-top: 80%;">
+    <footer>
         <p>IP-Control</p>
     </footer>
     
