@@ -98,12 +98,14 @@ main{
 
     font-size: 25px;
     
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 #ptextcadastro{
     font-size: 30px;
+    display: contents;
     margin-top: 5%;
+    
 }
 span{
     margin-left: 0px;
@@ -112,6 +114,7 @@ span{
 }
 #check{
     text-align: center;
+    margin-bottom: 20%;
 }
 .texts{
     display: flex;
@@ -130,6 +133,7 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
+    
     
         
     }
@@ -151,6 +155,19 @@ span{
     }
     footer{
         margin-top: 51%;
+    }
+    .textoId{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: 900;
+        margin-left: 24%;
+        margin-right: 24%;
+        display: flex;
+        
+    }
+    .perfil{
+        border-radius: 100%;
+        width: 40px;
     }
     
      }

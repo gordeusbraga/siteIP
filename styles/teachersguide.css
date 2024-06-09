@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'JetBrains Mono', monospace;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    height: 50vh;
+}
+header{
+    background: linear-gradient(100deg, #020D7C, #0318e2);
+    border-radius: 25px;
+    color: white;
+    width: 700px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+
+}
+.perfil{
+    border-radius: 100%;
+    width: 40px;
+    margin-left: 28%;
+}
+#men{
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 28%;
+
+}
+.textTeacherGuide{
+    color: white;
+    font-size: 20px;
+    display: contents;
+   padding-left: 24%;
+    font-weight: 700;
+
+}
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: #012458;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+    width: 300px;
+}
+a:hover{
+    text-decoration: underline;
+    padding: 45px;
+    background-color: #0319e29b;
+    transition:  0.4s;
+}
+footer{
+   text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 30%;
+    margin-bottom: 3%;
+  
+}	
+@media (max-width: 700px){
+    header{
+        width: 500px;
+    }
+    .perfil{
+        width: 30px;
+    }
+    #men{
+        width: 30px;
+    }
+    .textTeacherGuide{
+        font-size: 15px;
+    }
+    
+    footer{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 600px){
+    body{
+        height: 100vh;
+    }
+    header{
+        width: 360px;
+        padding: 3%;
+        
+    }
+    main{
+        margin-top: 0%;
+    }
+    .perfil{
+        width: 30px;
+    }
+    #men{
+        width: 30px;
+    }
+    .textTeacherGuide{
+        font-size: 14px;
+    }
+    .textTeacherGuide{
+        font-size: 10px;
+    }
+    a{
+        padding: 20px;
+        width: 300px;
+        font-size: 15px;
+        padding-left: 13px;
+        padding-right: 13px;
+        margin-top: 17%;
+    }
+    footer{
+        margin-top: 40%;
+    }
+}

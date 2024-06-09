@@ -1,182 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-*{
-    margin: 0px;
-    border: 0px;
-    font-family: 'JetBrains Mono';
-    }
-    body{
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        }
-        html{
-            scroll-behavior: smooth;
-            }
-            
-            header{
-                display: flex;
-                background: linear-gradient(100deg, #020D7C, #0318e2);
-                border-radius: 25px;
-                width: 270px;
-                padding: 1%;
-                padding-right: 6%;
-                display: flex;
-                justify-content: center;
-    align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
-    font-size: 18px;
-    
-    }
-    #headers{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2%;
-        margin-left: 2%;
-        
-        }
-        .perfil{
-            border-radius: 100%;
-            margin-right: 2%;
-            }
-            span{
-                display: flex;
-                justify-content: end;
-                align-items: center;
-                margin-left: 80%;
-                }
-                img{
-                    padding: 2%;
-                    padding-left: 4%;
-                    
-                    }
-                    main{
-                        display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15%;
-    
-    }
-    
-    footer{
-        display: flex;
-        align-items: end;
-        justify-content: center;
-        margin-top: 10%;
-        margin-bottom: 3%;
-        color: rgb(0, 0, 0);
-        }
-            footer{
-                margin-top: 30%;
-            }
-        .textoId{
-            
-            margin-right: -70%;
-            margin-left: 8%;
-            padding-left: 3%;
-            padding-right: 3%;
-            color: white;
-            text-align: center;
-            }
-            #men{
-                margin-left: -5%;
-                }
-                .textCadastro{
-                    margin-top: 3%;
-                    color: white;
-                    font-size: 20px;
-    display: flex;
-    padding: 20px;
-    
-    }
-    #check{
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        
-        }
-        #div-select{
-            background-color: #4a42423b;
-    color: white;
-    padding: 5px;
-    width: 80%;
-  
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+* {
+  margin: 0px;
+  border: 0px;
+  font-family: "JetBrains Mono";
 }
-#func{
-    width: 200px; background-color: #4a42423b; color: white; padding: 10px; border-radius: 10px; margin-left: 25%; margin-top: 20px;
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  background: linear-gradient(100deg, #020d7c, #0318e2);
+  border-radius: 25px;
+  width: 270px;
+  padding: 1%;
+  padding-right: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 18px;
+}
+#headers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-left: 2%;
+}
+.perfil {
+  border-radius: 100%;
+  margin-right: 2%;
+}
+span {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 80%;
+}
+img {
+  padding: 2%;
+  padding-left: 4%;
+}
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+footer {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color: rgb(0, 0, 0);
+}
+footer {
+  margin-top: 30%;
+}
+.textoId {
+  margin-right: -70%;
+  margin-left: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+#men {
+  margin-left: -5%;
+}
+.textCadastro {
+  margin-top: 3%;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  padding: 20px;
+}
+#check {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#div-select {
+  background-color: #4a42423b;
+  color: white;
+  padding: 5px;
+  width: 80%;
+}
+#func {
+  width: 200px;
+  background-color: #4a42423b;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-top: 20px;
 }
 #clock {
-    margin-top: 30px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-  }
-button{
-    color: white;
-    padding: 20px;
-    background-color: #403939db;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    margin-top: 24%;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
 }
-#horarioSalvo{
-    margin-top: 7%;
-    font-size: 22px;
+button {
+  color: white;
+  padding: 20px;
+  background-color: #403939db;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 24%;
+}
+#horarioSalvo {
+  margin-top: 7%;
+  font-size: 22px;
+  
 }
 
-#pontoComp{
-    font-size: 27px;
-    margin-top: 2%;
+#pontoComp {
+  font-size: 27px;
+  margin-top: 2%;
 
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-#container{
-    display: flex;
-    margin-top: 30%;
-    text-align: center;
-    
+#container {
+  display: flex;
+  margin-top: 30%;
+  text-align: center;
 }
-#opcoes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    font-size: 20px;
+#opcoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  font-size: 20px;
 }
 @media (min-width: 505px) {
-    header{
-        width: 70%;
-    }
-    span.textoId{
-          padding-left: 10%;
-          padding-right: 10%;
-    }
+  header {
+    width: 70%;
+  }
+  span.textoId {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    width: 650px;
+  }
+  span.textoId {
+    padding-left: 30%;
+    padding-right: 30%;
     
-     
- }
- @media (min-width: 768px) {
-     header{
-         width: 650px;
-     }
-     span.textoId{
-         padding-left: 20%;
-         padding-right: 20%;
-   }
-   main{
+  }
+  main {
     margin-top: 7%;
-   }
-   #horarioSalvo{
+  }
+  #horarioSalvo {
     margin-top: 7%;
     font-size: 22px;
-}
+  }
 
-#pontoComp{
+  #pontoComp {
     font-size: 30px;
     margin-top: 2%;
 
@@ -184,73 +182,74 @@ button{
     width: 100%;
     display: flex;
     justify-content: center;
-}
-#container{
+  }
+  #container {
     display: flex;
     margin-top: 30%;
     text-align: center;
-    
-}
-#opcoes{
+  }
+  #opcoes {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20%;
     font-size: 30px;
-}
-div#horarioSalvo{
+  }
+  div#horarioSalvo {
     margin-top: 7%;
     font-size: 30px;
+  }
+    #horarioSalvo {
+       margin-left: 5%;
     }
-   
 }
-        
- @media (min-width: 1024px) {
-    #headers{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2%;
-        margin-left: 2%;
-        
-        }
-        .perfil{
-            border-radius: 100%;
-            margin-right: 2%;
-            }
-            span{
-                display: flex;
-                justify-content: end;
-                align-items: center;
-                margin-left: 80%;
-                }
-                img{
-                    padding: 2%;
-                    padding-left: 4%;
-                    
-                    }
-                    main{
-                        display: grid;
-     header{
-         width: 650px;
-     }
-     span.textoId{
-         padding-left: 30%;
-         padding-right: 20%;
-         display: flex;
-         font-size: 20px;
-         font-weight: 700;
-   }
-   span#perfil2{
-     margin-left: 89%;
-   }
-   button{
-     padding: 30px;
-   }
-   footer{
-    margin-top:15%;
-   }
-   .textoId{
-    padding-right: 20%;
-   }
- }}
+
+@media (min-width: 1024px) {
+  #headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-left: 2%;
+    width: 100%;
+  }
+  .perfil {
+    border-radius: 100%;
+    margin-right: 2%;
+  }
+  span {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 80%;
+  }
+  img {
+    padding: 2%;
+    padding-left: 4%;
+  }
+  main {
+    display: grid;
+    header {
+      width: 650px;
+    }
+    span.textoId {
+      padding-left: 30%;
+      padding-right: 20%;
+      display: flex;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    span#perfil2 {
+      margin-left: 89%;
+    }
+    button {
+      padding: 30px;
+    }
+    footer {
+      margin-top: 15%;
+    }
+    .textoId {
+      padding-right: 20%;
+    }
+  }
+}
